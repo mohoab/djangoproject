@@ -6,3 +6,5 @@ def say_hello(request):
     return HttpResponse('hellow django')
 def about(request):
     return HttpResponse('about django')
+def homepage(request):
+    return HttpResponse('its first page')

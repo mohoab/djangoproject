@@ -7,4 +7,4 @@ def say_hello(request):
 def about(request):
     return HttpResponse('about django')
 def homepage(request):
-    return HttpResponse('its first page')
+    return render(request , 'hello.html')

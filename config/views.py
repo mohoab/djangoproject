@@ -1,4 +1,5 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render
 def winner(request):
-    return HttpResponse('youare winner')
+    wdic={'winner1' : 'alireza' , 'winner2' : 'mohammad' , 'winner3' : 'abbas'}
+    return render(request,'config/winner.html' , context = wdic )

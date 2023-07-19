@@ -7,5 +7,4 @@ def contact(request):
 def about(request):
     return render(request ,'root/about.html')
 def homepage(request):
-    hdic = {'name':'ahmad'}
-    return render(request ,'root/index.html' , context= hdic)
+    return render(request ,'root/index.html')

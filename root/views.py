@@ -8,3 +8,5 @@ def about(request):
     return render(request ,'root/about.html')
 def homepage(request):
     return render(request ,'root/index.html')
+def trainers(request):
+    return render(request ,'root/trainers.html')

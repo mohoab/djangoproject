@@ -10,3 +10,5 @@ def homepage(request):
     return render(request ,'root/index.html')
 def trainers(request):
     return render(request ,'root/trainers.html')
+def courses(request):
+    return render(request ,'root/courses.html')
